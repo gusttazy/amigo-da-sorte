@@ -11,11 +11,8 @@ export default function Header() {
                     className="text-2xl font-bold flex items-center gap-2"
                 >
                     <Clover className="h-6 w-6 text-green-700" />
-                    <span className="font-thin">
-                        Amigo da{" "}
-                        <span className="font-bold">
-                            Sorte
-                        </span>
+                    <span className="font-semibold">
+                        Amigo da Sorte
                     </span>
                 </Link>
 

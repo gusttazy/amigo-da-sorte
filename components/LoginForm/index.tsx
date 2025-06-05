@@ -71,7 +71,7 @@ export default function LoginForm() {
 
 
 
-                        <Button type="submit" className="w-full h-12 text-base">
+                        <Button type="submit" className="w-full h-12 font-bold text-base text-white">
                             {pending && <Loader className="mr-2 h-4 w-4 animate-spin" />}
                             Entrar
                         </Button>
